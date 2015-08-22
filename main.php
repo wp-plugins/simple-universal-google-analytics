@@ -1,7 +1,7 @@
 <?php
 /*
   Plugin Name: Simple Universal Google Analytics
-  Version: 1.0.1
+  Version: 1.0.2
   Plugin URI: http://wphowto.net/simple-universal-google-analytics-plugin-for-wordpress-822
   Author: naa986
   Author URI: http://wphowto.net/
@@ -15,7 +15,7 @@ if (!class_exists('SIMPLE_UNIVERSAL_GA')) {
 
     class SIMPLE_UNIVERSAL_GA {
 
-        var $plugin_version = '1.0.1';
+        var $plugin_version = '1.0.2';
 
         function __construct() {
             define('SIMPLE_UNIVERSAL_GA_VERSION', $this->plugin_version);
